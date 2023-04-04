@@ -1,0 +1,7 @@
+type Journal @model
+@auth(rules: [{ allow: public}]) {
+  id: ID!
+  quote: String!
+  prompt: String
+  
+}

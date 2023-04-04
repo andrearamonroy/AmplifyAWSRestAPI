@@ -1,0 +1,37 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateJournal($filter: ModelSubscriptionJournalFilterInput) {
+  onCreateJournal(filter: $filter) {
+    id
+    quote
+    prompt
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateJournal($filter: ModelSubscriptionJournalFilterInput) {
+  onUpdateJournal(filter: $filter) {
+    id
+    quote
+    prompt
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteJournal($filter: ModelSubscriptionJournalFilterInput) {
+  onDeleteJournal(filter: $filter) {
+    id
+    quote
+    prompt
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

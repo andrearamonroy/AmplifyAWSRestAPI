@@ -1,0 +1,46 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateJournal(
+  $input: CreateJournalInput!
+  $condition: ModelJournalConditionInput
+) {
+  createJournal(input: $input, condition: $condition) {
+    id
+    quote
+    prompt
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateJournal(
+  $input: UpdateJournalInput!
+  $condition: ModelJournalConditionInput
+) {
+  updateJournal(input: $input, condition: $condition) {
+    id
+    quote
+    prompt
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteJournal(
+  $input: DeleteJournalInput!
+  $condition: ModelJournalConditionInput
+) {
+  deleteJournal(input: $input, condition: $condition) {
+    id
+    quote
+    prompt
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

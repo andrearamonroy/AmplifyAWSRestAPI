@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-iosrest-dev-153454-authRole",
+      "UnauthRoleArn": "arn:aws:iam::151691833018:role/amplify-iosrest-dev-153454-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::151691833018:role/amplify-iosrest-dev-153454-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-iosrest-dev-153454-deployment",
+      "UnauthRoleName": "amplify-iosrest-dev-153454-unauthRole",
+      "StackName": "amplify-iosrest-dev-153454",
+      "StackId": "arn:aws:cloudformation:us-east-1:151691833018:stack/amplify-iosrest-dev-153454/55f49ae0-cf3a-11ed-a988-0a41bb075611",
+      "AmplifyAppId": "d2aucxxx9me1kk",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-iosrest-dev-153454-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "apiRestLambda": {
+          "deploymentBucketName": "amplify-iosrest-dev-153454-deployment",
+          "s3Key": "amplify-builds/apiRestLambda-6b686b456a592f664e53-build.zip"
+        },
+        "restLambda": {
+          "deploymentBucketName": "amplify-iosrest-dev-153454-deployment",
+          "s3Key": "amplify-builds/restLambda-4c46635573746d5a6545-build.zip"
+        }
+      },
+      "auth": {
+        "iosrest": {}
+      },
+      "api": {
+        "amplifyDatasource": {},
+        "apijournal": {},
+        "apiRest": {}
+      }
+    }
+  }
+}
